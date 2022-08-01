@@ -108,14 +108,14 @@ body, html {
   }
 
 nav {
-  position: sticky;
+  /*position: sticky;*/
   top: 0;
   height: 72px;
   padding: 3rem 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--background);
+  background-color: var(--wires-lightgreen);
 
   z-index: 100;
 }
@@ -256,7 +256,7 @@ button:active {
 }
 
 #hero-img {
-  background-image: url('../images/wires-hero-mockup.png');
+  background-image: url('../images/');
   width: 120%;
   height: 120%;
   background-size: contain;
