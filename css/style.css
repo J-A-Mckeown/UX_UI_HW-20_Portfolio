@@ -6,10 +6,10 @@
 
   p {
     font-family: var(--secondaryFont);
-    font-weight: 200;
-    line-height: 1.4rem;
+    font-weight: lighter;
+    line-height: 2rem;
     color: var(--textColor);
-    font-size: 16px;
+    font-size: 1.3rem;
   }
 
   h1 {
@@ -39,15 +39,15 @@
     font-weight: normal;
     color: var(--textColor);
     font-size: 1.8rem;
-    padding: 8px 0 8px 0;
+    padding: 18px 0 12px 0;
   }
 
-a {
-    font-family: var(--primaryFont);
-    font-weight: 200;
+  a {
+    font-family: var(--secondaryFont);
+    font-weight: normal;
+    line-height: 1.8rem;
     color: var(--textColor);
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.3rem;
     text-decoration: none;
     letter-spacing: 1;
   }
@@ -194,11 +194,11 @@ a {
 }
 
 #introCopy {
-  font-family: var(--primaryFont);
-  font-weight: 200;
+  font-family: var(--secondaryFont);
+  font-weight: lighter;
   line-height: 2rem;
   color: var(--textColor);
-  font-size: 18px;
+  font-size: 1.3rem;
 }
 
 .primary-button {
@@ -551,7 +551,7 @@ nav #burger {
   display: none;} 
 
 #Hello {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     letter-spacing: -2.5px;
     padding: 40px 24px 0 24px;
   }

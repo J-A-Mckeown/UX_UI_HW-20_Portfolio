@@ -6,10 +6,10 @@
 
 p {
   font-family: var(--secondaryFont);
-  font-weight: 200;
-  line-height: 1.5rem;
+  font-weight: lighter;
+  line-height: 2rem;
   color: var(--textColor);
-  font-size: 16px;
+  font-size: 1.3rem;
 }
 
 figcaption {
@@ -17,7 +17,7 @@ figcaption {
   font-weight: 200;
   line-height: 1.5rem;
   color: var(--textColor);
-  font-size: 14px;
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -47,15 +47,15 @@ h3 {
   font-weight: normal;
   color: var(--textColor);
   font-size: 1.8rem;
-  padding: 8px 0 8px 0;
+  padding: 18px 0 12px 0;
 }
 
 a {
-  font-family: var(--primaryFont);
-  font-weight: 200;
+  font-family: var(--secondaryFont);
+  font-weight: normal;
+  line-height: 1.8rem;
   color: var(--textColor);
-  font-size: 1.2rem;
-  line-height: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
   letter-spacing: 1;
 }
@@ -63,9 +63,9 @@ a {
 h4 {
   font-family: var(--secondaryFont);
   font-weight: normal;
-  line-height: 1.4rem;
+  line-height: 1.8rem;
   color: var(--textColor);
-  font-size: 20px;
+  font-size: 1.3rem;
   padding: 24px 0 8px 0;
 }
 
@@ -83,7 +83,7 @@ h4 {
   --clr-light: #1f1f1f;
   --wires-background: #F3F1ED;
   --wires-primary: #305029;
-  --wires-lightgreen: #e7e9e7;
+  --wires-lightgreen: #f3f7f2;
 
 
   --ln: 1px solid #C4C4C4;
@@ -115,7 +115,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: var(--background);
+
   z-index: 100;
 }
 
@@ -196,31 +197,27 @@ cursor: pointer;
 
 .copy-left {
   grid-column: span 3;
-  max-width: 600px;
   height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1 rem;
   align-items: stretch;
   padding: 4rem 0 4rem 0;
 }
 
 #title {
   font-family: var(--primaryFont);
-  font-weight: 200;
   color: var(--textColor);
   font-size: 3rem;
-  line-height: 3.5rem;
+  line-height: 3rem;
 }
 
 #title-sub {
   font-family: var(--primaryFont);
-  font-weight: lighter;
+  font-weight: 200;
   color: var(--textColor);
   font-size: 1.8rem;
   line-height: 3rem;
-  padding: 6 0 0 0;
 }
 
 hr {
