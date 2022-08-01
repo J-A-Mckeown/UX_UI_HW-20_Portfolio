@@ -18,6 +18,7 @@ figcaption {
   line-height: 1.5rem;
   color: var(--textColor);
   font-size: 1.2rem;
+  padding: 1rem 0;
 }
 
 h1 {
@@ -100,6 +101,8 @@ h4 {
   --motion-2: 240ms;
   --motion-3: 600ms;
   --motion-4: 1200ms;
+
+  --box-shadow-1: 3px 3px 15px #c4c4c4;
 }
 
 body, html {
@@ -265,7 +268,7 @@ button:active {
 
 /* Portfolio Section --------------------------*/
 
-main {
+main > * {
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -276,7 +279,7 @@ main {
 }
 
 .section-header {
-  grid-column: span 6;
+  grid-column: span 8;
   padding-top: 3rem;
 }
 
@@ -308,13 +311,28 @@ main {
 }
 
 .img-centered #img-b {
-  background-image: url('../images/wires_casestudy_2.png');
+  background-image: url('../images/wires_website_3.jpg');
   grid-column: span 12;
-  width: 103%;
-  height: 150px;
+  width: auto;
+  height: 560px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
+  box-shadow: var(--box-shadow-1);
+}
+
+#img-b{}
+
+
+.img-centered #img-c {
+  background-image: url('../images/wires_website_2.jpg');
+  grid-column: span 12;
+  width: auto;
+  height: 560px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  box-shadow: var(--box-shadow-1);
 }
 
 
